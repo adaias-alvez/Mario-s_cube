@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="coin">
+            <img src="img/coin.png" alt="">
+        </div>
+
+        <div class="boxarea">
+            
+        
+            
+            <div class="box boxfront"></div>
+            <div class="box boxright"></div>
+            <div class="box boxback"></div>
+            <div class="box boxleft"></div>
+            <div class="box boxtop"></div>
+            <div class="box boxbottom"></div>
+        </div>
+    </div>
+    <script>
+        document.querySelector('.wrapper').onclick = function() {
+            this.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
